@@ -1,0 +1,110 @@
+using Microsoft.VisualBasic.Devices;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace ils_2023
+{
+    public partial class Form3 : Form
+    {
+      
+        
+        public Form3()
+        {
+            InitializeComponent();
+            
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtbAme.Text = "0"; txtbSpanWhi.Text = "0";
+            txtbCappu.Text = "0"; txtbCold.Text = "0";
+            txtbCarLat.Text = "0"; txtbFlat.Text = "0";
+            txtbChocLat.Text = "0"; txtbPepper.Text = "0";
+            txtbVanLat.Text = "0"; txtbMocha.Text = "0";
+
+            txtbCro.Text = "0"; txtbBana.Text = "0";
+            txtbScone.Text = "0"; txtbLemon.Text = "0"; txtbChip.Text = "0";
+
+            ckbAme.Checked = false;ckbCappu.Checked = false;
+            ckbChocLat.Checked = false;ckbFlat.Checked = false;
+            checkBox1.Checked = false; checkBox2.Checked = false;
+            ckbVanLat.Checked = false; ckbMocha.Checked = false;
+            ckbCold.Checked = false; ckbCro.Checked = false;
+            ckbPepper.Checked = false; ckbBana.Checked = false;
+            ckbLemon.Checked = false; ckbScone.Checked = false; ckbChip.Checked = false;
+            lblTotal.Text = "";
+            lblPastry.Text = "";
+            lblIced.Text = "";
+            lblSub.Text = "";
+
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+            lblTime.Text = DateTime.Now.ToLongTimeString();
+            lblDate.Text = DateTime.Now.ToLongDateString();
+            timer1.Start();
+
+            txtbAme.Text = "0"; txtbSpanWhi.Text = "0";
+            txtbCappu.Text = "0"; txtbCold.Text = "0";
+            txtbCarLat.Text = "0"; txtbFlat.Text = "0";
+            txtbChocLat.Text = "0"; txtbPepper.Text = "0";
+            txtbVanLat.Text = "0"; txtbMocha.Text = "0";
+
+            txtbCro.Text = "0"; txtbBana.Text = "0";
+            txtbScone.Text = "0"; txtbLemon.Text = "0"; txtbChip.Text = "0";
+            lblSub.Text = "0"; lblIced.Text = "0"; lblPastry.Text = "0"; lblTax.Text = "0"; lblTotal.Text="0";
+            
+            txtbAme.Enabled = false; txtbCappu.Enabled = false;
+            txtbCarLat.Enabled = false; txtbChocLat.Enabled = false;
+            txtbVanLat.Enabled = false; txtbSpanWhi.Enabled = false;
+            txtbCold.Enabled = false; txtbFlat.Enabled = false;
+            txtbPepper.Enabled = false; txtbMocha.Enabled = false;
+
+            txtbCro.Enabled = false; txtbBana.Enabled = false;
+            txtbScone.Enabled = false; txtbLemon.Enabled = false;
+            txtbChip.Enabled = false;
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Form1().Show();
+        }
+
+        private void ckbAme_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ckbAme.Checked == true)
+            {
+                txtbAme.Enabled = true;
+                pictureBox1.BringToFront();
+                pictureBox1.Image = Properties.Resources.americano1;
+            }
+            if (ckbAme.Checked == false)
+            {
+                txtbAme.Enabled = false;
+                txtbAme.Text = ("0");
+            }
+        }
+
+        private void txtbAme_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
