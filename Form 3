@@ -108,3 +108,708 @@ namespace ils_2023
         {
             
         }
+
+        private void ckbCappu_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ckbCappu.Checked == true)
+            {
+                txtbCappu.Enabled = true;
+                pictureBox1.BringToFront();
+                pictureBox1.Image = Properties.Resources._45_Iced_Cappuccino1080;
+            }
+            if (ckbCappu.Checked == false)
+            {
+                txtbCappu.Enabled = false;
+                txtbCappu.Text = "0";
+            }
+        }
+
+        private void txtbCappu_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true)
+            {
+                txtbCarLat.Enabled = true;
+                pictureBox1.BringToFront();
+                pictureBox1.Image = Properties.Resources.carlat;
+
+            }
+            if (checkBox1.Checked == false)
+            {
+                txtbCarLat.Enabled = false;
+                txtbCarLat.Text = "0";
+            }
+        }
+
+        private void txtbCarLat_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void ckbChocLat_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ckbChocLat.Checked == true)
+            {
+                txtbChocLat.Enabled = true;
+                pictureBox1.BringToFront();
+                pictureBox1.Image = Properties.Resources.IESP_IcedCaramelMacchiato;
+
+            }
+            if (ckbChocLat.Checked == false)
+            {
+                txtbChocLat.Enabled = false;
+                txtbChocLat.Text = "0";
+                
+            }
+        }
+
+        private void txtbChocLat_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void ckbVanLat_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ckbVanLat.Checked == true)
+            {
+                txtbVanLat.Enabled = true;
+                pictureBox1.BringToFront();
+                pictureBox1.Image = Properties.Resources.vanlat;
+
+            }
+            if (ckbVanLat.Checked == false)
+            {
+                txtbVanLat.Enabled = false;
+                txtbVanLat.Text = "0";
+              
+            }
+        }
+
+        private void txtbVanLat_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox2.Checked == true)
+            {
+                txtbSpanWhi.Enabled = true;
+                pictureBox1.BringToFront();
+                pictureBox1.Image = Properties.Resources.span_white;
+            }
+            if (checkBox2.Checked == false)
+            {
+                txtbSpanWhi.Enabled = false;
+                txtbSpanWhi.Text = "0";
+               
+            }
+        }
+
+        private void txtbSpanWhi_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void txtbAme_Click(object sender, EventArgs e)
+        {
+            txtbAme.Text = "";
+            txtbAme.Focus();
+        }
+
+        private void txtbCappu_Click(object sender, EventArgs e)
+        {
+            txtbCappu.Text = "";
+            txtbCappu.Focus();
+        }
+
+        private void txtbCarLat_Click(object sender, EventArgs e)
+        {
+            txtbCarLat.Text = "";
+            txtbCarLat.Focus();
+        }
+
+        private void txtbChocLat_Click(object sender, EventArgs e)
+        {
+            txtbChocLat.Text = "";
+            txtbChocLat.Focus();
+        }
+
+        private void txtbVanLat_Click(object sender, EventArgs e)
+        {
+            txtbVanLat.Text = "";
+            txtbVanLat.Focus();
+        }
+
+        private void txtbSpanWhi_Click(object sender, EventArgs e)
+        {
+            txtbSpanWhi.Text = "";
+            txtbSpanWhi.Focus();
+        }
+
+        private void ckbCold_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ckbCold.Checked == true)
+            {
+                txtbCold.Enabled = true;
+                pictureBox1.BringToFront();
+                pictureBox1.Image = Properties.Resources.cold;
+
+            }
+            if(ckbCold.Checked == false)
+            {
+                txtbCold.Enabled = false;
+                txtbCold.Text = "0";
+            }
+        }
+
+        private void txtbCold_Click(object sender, EventArgs e)
+        {
+            txtbCold.Text = "";
+            txtbCold.Focus();
+        }
+
+        private void ckbPepper_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ckbPepper.Checked == true)
+            {
+                txtbPepper.Enabled = true;
+                pictureBox1.BringToFront();
+                pictureBox1.Image = Properties.Resources.tinywow_8fd5aa3d9633472c98cc8a016c330a4f_10189204;
+
+            }
+            if (ckbPepper.Checked == false)
+            {
+                txtbPepper.Enabled = false;
+                txtbPepper.Text = "0";
+
+            }
+        }
+
+        private void ckbFlat_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ckbFlat.Checked == true)
+            {
+                txtbFlat.Enabled = true;
+                pictureBox1.BringToFront();
+                pictureBox1.Image = Properties.Resources.tinywow_flatwhi_10132772;
+
+            }
+            if (ckbFlat.Checked == false)
+            {
+                txtbFlat.Enabled = false;
+                txtbFlat.Text = "0";
+            }
+        }
+
+        private void txtbFlat_Click(object sender, EventArgs e)
+        {
+            txtbFlat.Text = "";
+            txtbFlat.Focus();
+        }
+
+        private void txtbPepper_Click(object sender, EventArgs e)
+        {
+            txtbPepper.Text = "";
+            txtbPepper.Focus();
+        }
+
+        private void ckbMocha_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ckbMocha.Checked == true)
+            {
+                txtbMocha.Enabled = true;
+                pictureBox1.BringToFront();
+                pictureBox1.Image = Properties.Resources.tinywow_mocha_10189370;
+            }
+            if (ckbMocha.Checked == false)
+            {
+                txtbMocha.Enabled = false;
+                txtbMocha.Text = "0";
+                
+            }
+        }
+
+        private void txtbMocha_Click(object sender, EventArgs e)
+        {
+            txtbMocha.Text = "";
+            txtbMocha.Focus();
+        }
+
+        private void ckbCro_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ckbCro.Checked == true)
+            {
+                txtbCro.Enabled = true;
+                pictureBox1.BringToFront();
+                pictureBox1.Image = Properties.Resources.cro;
+
+            }
+            if (ckbCro.Checked == false)
+            {
+                txtbCro.Enabled = false;
+                txtbCro.Text="0";
+            }
+        }
+
+        private void txtbCro_Click(object sender, EventArgs e)
+        {
+            txtbCro.Text = "";
+            txtbCro.Focus();
+        }
+
+        private void ckbBana_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ckbBana.Checked == true)
+            {
+                txtbBana.Enabled = true;
+                pictureBox1.BringToFront();
+                pictureBox1.Image = Properties.Resources.banana;
+            }
+            if (ckbBana.Checked == false)
+            {
+                txtbBana.Enabled = false;
+                txtbBana.Text = "0";
+            }
+        }
+
+        private void txtbBana_Click(object sender, EventArgs e)
+        {
+            txtbBana.Text = "";
+            txtbBana.Focus();
+        }
+
+        private void ckbScone_CheckedChanged(object sender, EventArgs e)
+        { 
+            if (ckbScone.Checked == true)
+            {
+                txtbScone.Enabled = true;
+                pictureBox1.BringToFront();
+                pictureBox1.Image = Properties.Resources.scone;
+
+            }
+            if (ckbScone.Checked == false)
+            {
+                txtbScone.Enabled = false;
+                txtbScone.Text = "0";
+                
+            }
+        }
+
+        private void txtbScone_Click(object sender, EventArgs e)
+        {
+            txtbScone.Text = "";
+            txtbScone.Focus();
+        }
+
+        private void ckbLemon_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ckbLemon.Checked == true)
+            {
+                txtbLemon.Enabled = true;
+                pictureBox1.BringToFront();
+                pictureBox1.Image = Properties.Resources.lemon;
+
+            }
+            if (ckbLemon.Checked == false)
+            {
+                txtbLemon.Enabled = true;
+                txtbLemon.Text = "0";
+               
+            }
+        }
+
+        private void txtbLemon_Click(object sender, EventArgs e)
+        {
+            txtbLemon.Text = "";
+            txtbLemon.Focus();
+        }
+
+        private void ckbChip_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ckbChip.Checked == true)
+            {
+                txtbChip.Enabled = true;
+                pictureBox1.BringToFront();
+                pictureBox1.Image = Properties.Resources.chip;
+
+            }
+            if (ckbChip.Checked == false)
+            {
+                txtbChip.Enabled = false;
+                txtbChip.Text = "0";
+               
+            }
+        }
+
+        private void txtbChip_Click(object sender, EventArgs e)
+        {
+            txtbChip.Text = "";
+            txtbChip.Focus();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            lblTime.Text = DateTime.Now.ToLongTimeString();
+        }
+
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            e.Graphics.DrawString(rtbReceipt.Text, new Font("Garamond", 22, FontStyle.Bold), Brushes.Black, 120, 120);
+
+        }
+
+        private void printToolStripButton_Click(object sender, EventArgs e)
+        {
+            printPreviewDialog1.Document = printDocument1;
+            printPreviewDialog1.ShowDialog();
+        }
+
+        private void newToolStripButton_Click(object sender, EventArgs e)
+        {
+            rtbReceipt.Clear();
+        }
+
+        private void btnReceipt_Click(object sender, EventArgs e)
+        {
+            double americano, cappucino, carlat, carmac, vanilla, spanish, cold, pepper, flat, caffe;
+            double cros, banana, scone, loaf, chip;
+
+            americano = 55.00; spanish = 75.00;
+            cappucino = 70.00; cold = 70.00;
+            carlat = 70.00; pepper = 75.00;
+            carmac = 75.00; flat = 75.00;
+            vanilla = 70.00; caffe = 75.00;
+
+
+            double americano_c = Convert.ToDouble(txtbAme.Text);
+            double cappucino_c = Convert.ToDouble(txtbCappu.Text);
+            double carlat_c = Convert.ToDouble(txtbCarLat.Text);
+            double carmac_c = Convert.ToDouble(txtbChocLat.Text);
+            double vanilla_c = Convert.ToDouble(txtbVanLat.Text);
+            double spanish_c = Convert.ToDouble(txtbSpanWhi.Text);
+            double cold_c = Convert.ToDouble(txtbCold.Text);
+            double pepper_c = Convert.ToDouble(txtbPepper.Text);
+            double flat_c = Convert.ToDouble(txtbFlat.Text);
+            double mocha_c = Convert.ToDouble(txtbMocha.Text);
+
+            cros = 75.00; banana = 85.00; scone = 70.00; loaf = 100.00; chip = 70.00;
+            double cros_P = Convert.ToDouble(txtbCro.Text);
+            double banana_P = Convert.ToDouble(txtbBana.Text);
+            double scone_P = Convert.ToDouble(txtbScone.Text);
+            double loaf_P = Convert.ToDouble(txtbLemon.Text);
+            double chip_P = Convert.ToDouble(txtbChip.Text);
+
+
+            Cafe eat_in_cafe = new Cafe(americano_c, cappucino_c, carlat_c, carmac_c, vanilla_c, spanish_c, cold_c, pepper_c, flat_c, mocha_c, cros_P, banana_P, scone_P, loaf_P, chip_P);
+
+
+            double caf1 = americano_c * americano; double caf6 = spanish_c * spanish;
+            double caf2 = cappucino_c * cappucino; double caf7 = cold_c * cold;
+            double caf3 = carlat_c * carlat; double caf8 = pepper_c * pepper;
+            double caf4 = carmac_c * carmac; double caf9 = flat_c * flat; ;
+            double caf5 = vanilla_c * vanilla; double caf10 = mocha_c * caffe;
+
+
+
+            double pas1 = (cros_P * cros);
+            double pas2 = (banana_P * banana);
+            double pas3 = (scone_P * scone);
+            double pas4 = (loaf_P * loaf);
+            double pas5 = (chip_P * chip);
+            rtbReceipt.Clear();
+            rtbReceipt.BringToFront();
+            toolStrip1.BringToFront();
+            panel4.BringToFront();
+            rtbReceipt.AppendText(Environment.NewLine);
+            rtbReceipt.AppendText("\t\t "+ "   "+  "Daily Drip" + Environment.NewLine);
+            rtbReceipt.AppendText(" -------------------------------------------------------- " + Environment.NewLine + Environment.NewLine);
+            rtbReceipt.AppendText( " "+ lblDate.Text + " " + lblTime.Text + Environment.NewLine);
+            rtbReceipt.AppendText(" -------------------------------------------------------- " + Environment.NewLine + Environment.NewLine);
+            rtbReceipt.AppendText(" MENU \t" + "  QUANTITY" + "\t" + "PRICE" + Environment.NewLine);
+            rtbReceipt.AppendText(Environment.NewLine);
+            if (ckbAme.Checked == true)
+            {
+                rtbReceipt.AppendText(" AMERI...\t\t" + txtbAme.Text +"\t\t" + "      " + caf1 + Environment.NewLine);
+            }
+            if (ckbCappu.Checked == true)
+            {
+                rtbReceipt.AppendText(" CAPPU...\t\t" + txtbCappu.Text + "\t\t" + "      " + caf2 + Environment.NewLine);
+            }
+            if (checkBox1.Checked == true)
+            {
+                rtbReceipt.AppendText(" CARLATTE\t\t" + txtbCarLat.Text + "\t\t" + "      " + caf3 + Environment.NewLine);
+            }
+            if (ckbChocLat.Checked == true)
+            {
+                rtbReceipt.AppendText(" CARAM...\t\t" + txtbChocLat.Text + "\t\t" + "      " + caf4 + Environment.NewLine);
+            }
+            if(ckbVanLat.Checked == true)
+            {
+                rtbReceipt.AppendText(" VANLATTE\t\t" + txtbVanLat.Text + "\t\t" + "      " + caf5 + Environment.NewLine);
+            }
+            if (checkBox2.Checked == true)
+            {
+                rtbReceipt.AppendText(" SPANI...\t\t" + txtbSpanWhi.Text + "\t\t" + "      " + caf6 + Environment.NewLine);
+            }
+            if (ckbCold.Checked == true)
+            {
+                rtbReceipt.AppendText(" COLD B...\t\t" + txtbCold.Text + "\t\t" + "      " + caf7 + Environment.NewLine);
+            }
+            if (ckbPepper.Checked == true)
+            {
+                rtbReceipt.AppendText(" PEPPE...\t\t" + txtbPepper.Text + "\t\t " + "     " + caf8 + Environment.NewLine);
+            }
+            if (ckbFlat.Checked == true)
+            {
+                rtbReceipt.AppendText(" FLAT...\t\t" + txtbFlat.Text + "\t\t" + "      " + caf9 + Environment.NewLine);
+            }
+            if (ckbMocha.Checked == true)
+            {
+                rtbReceipt.AppendText(" CAFFE...\t\t" + txtbMocha.Text + "\t\t" + "      " + caf10 + Environment.NewLine);
+            }
+            if (ckbCro.Checked == true)
+            {
+                rtbReceipt.AppendText(" BUTTER...\t\t" + txtbCro.Text + "\t\t" + "      " + pas1 + Environment.NewLine);
+            }
+            if(ckbBana.Checked == true)
+            {
+                rtbReceipt.AppendText(" BANANA...\t\t" + txtbBana.Text + "\t\t" + "      " + pas2 + Environment.NewLine);
+            }
+            if (ckbScone.Checked == true)
+            {
+                rtbReceipt.AppendText(" BLUEBE...\t\t" + txtbScone.Text + "\t\t" + "      " + pas3 + Environment.NewLine);
+            }
+            if (ckbLemon.Checked == true)
+            {
+                rtbReceipt.AppendText(" ICED LE...\t\t" + txtbLemon.Text + "\t\t" + "      " + pas4 + Environment.NewLine);
+            }
+            if (ckbChip.Checked == true)
+            {
+                rtbReceipt.AppendText(" CHOCO...\t\t" + txtbChip.Text +"\t\t" + "      " + pas5 + Environment.NewLine);
+
+            }
+            rtbReceipt.AppendText(" -------------------------------------------------------- " + Environment.NewLine);
+            rtbReceipt.AppendText(" TOTAL PRICE \t\t\t " + "    "+ lblTotal.Text + Environment.NewLine);
+            rtbReceipt.AppendText(" \t\t Before Tax \t\t " + "    " + lblSub.Text+ Environment.NewLine);
+            rtbReceipt.AppendText(" \t\t Tax (VAT)  \t\t" + "      " + lblTax.Text+ Environment.NewLine);
+            rtbReceipt.AppendText(" -------------------------------------------------------- " + Environment.NewLine);
+            rtbReceipt.AppendText(" TOTAL PRICE \t\t\t " + "    " + lblTotal.Text + Environment.NewLine);
+            rtbReceipt.AppendText(" Amount of Pay\t\t\t " + "    " + txtbCash.Text + Environment.NewLine);
+            rtbReceipt.AppendText(" -------------------------------------------------------- " + Environment.NewLine);
+            rtbReceipt.AppendText(" CHANGE \t\t\t\t " + "     " + lblChange.Text + Environment.NewLine);
+        }
+
+        private void btnTotal_Click(object sender, EventArgs e)
+        {
+            double americano, cappucino, carlat, carmac, vanilla, spanish, cold, pepper, flat, caffe;
+            double cros, banana, scone, loaf, chip;
+
+            americano = 55.00; spanish = 75.00;
+            cappucino = 70.00; cold = 70.00;
+            carlat = 70.00;    pepper = 75.00;
+            carmac = 75.00;    flat = 75.00;
+            vanilla = 70.00;   caffe = 75.00;
+
+            
+            double americano_c= Convert.ToDouble(txtbAme.Text);
+            double cappucino_c= Convert.ToDouble(txtbCappu.Text);
+            double carlat_c = Convert.ToDouble(txtbCarLat.Text);
+            double carmac_c = Convert.ToDouble(txtbChocLat.Text);
+            double vanilla_c= Convert.ToDouble(txtbVanLat.Text);
+            double spanish_c = Convert.ToDouble(txtbSpanWhi.Text);
+            double cold_c = Convert.ToDouble(txtbCold.Text);
+            double pepper_c = Convert.ToDouble(txtbPepper.Text);
+            double flat_c = Convert.ToDouble(txtbFlat.Text);
+            double mocha_c = Convert.ToDouble(txtbMocha.Text);
+
+            cros = 75.00; banana = 85.00; scone = 70.00; loaf = 100.00; chip = 70.00;
+            double cros_P = Convert.ToDouble(txtbCro.Text);
+            double banana_P= Convert.ToDouble(txtbBana.Text);
+            double scone_P= Convert.ToDouble(txtbScone.Text);
+            double loaf_P = Convert.ToDouble(txtbLemon.Text);
+            double chip_P= Convert.ToDouble(txtbChip.Text);
+
+            
+            Cafe eat_in_cafe = new Cafe(americano_c, cappucino_c, carlat_c, carmac_c, vanilla_c, spanish_c, cold_c, pepper_c, flat_c, mocha_c, cros_P, banana_P, scone_P, loaf_P, chip_P);
+            
+            double caf1 = americano_c * americano; double caf6 = spanish_c * spanish;
+            double caf2 = cappucino_c * cappucino; double caf7 = cold_c * cold;
+            double caf3 = carlat_c * carlat; double caf8 = pepper_c * pepper;
+            double caf4 = carmac_c * carmac; double caf9 = flat_c * flat; ;
+            double caf5 = vanilla_c * vanilla; double caf10 = mocha_c * caffe;
+
+            double cost_of_coff = caf1 + caf2 + caf3 + caf4 + caf5 + caf6 + caf7+caf8 + caf9 + caf10;
+            lblIced.Text=Convert.ToString(cost_of_coff);
+
+            double pas1 = (cros_P * cros);
+            double pas2 = (banana_P * banana);
+            double pas3 = (scone_P * scone);
+            double pas4 = (loaf_P * loaf);
+            double pas5 = (chip_P * chip);
+
+            double cost_of_pastry = pas1 + pas2 + pas3 + pas4 + pas5;
+           
+            lblPastry.Text = Convert.ToString(cost_of_pastry);
+
+            lblSub.Text = Convert.ToString(cost_of_coff + cost_of_pastry);
+            double tax = ((cost_of_coff + cost_of_pastry) * 0.12);
+            double roun = Math.Round(tax);
+            lblTax.Text = Convert.ToString(roun);
+            double itax = Convert.ToDouble(lblTax.Text);
+            double Total = (cost_of_pastry + cost_of_coff + itax);
+            lblTotal.Text = Convert.ToString(Total);
+           
+
+      
+
+
+        }
+
+        private void lblDate_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTotal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double change;
+
+            double change_c = Convert.ToDouble(txtbCash.Text);
+            double americano, cappucino, carlat, carmac, vanilla, spanish, cold, pepper, flat, caffe;
+            double cros, banana, scone, loaf, chip;
+
+            americano = 55.00; spanish = 75.00;
+            cappucino = 70.00; cold = 70.00;
+            carlat = 70.00; pepper = 75.00;
+            carmac = 75.00; flat = 75.00;
+            vanilla = 70.00; caffe = 75.00;
+
+
+            double americano_c = Convert.ToDouble(txtbAme.Text);
+            double cappucino_c = Convert.ToDouble(txtbCappu.Text);
+            double carlat_c = Convert.ToDouble(txtbCarLat.Text);
+            double carmac_c = Convert.ToDouble(txtbChocLat.Text);
+            double vanilla_c = Convert.ToDouble(txtbVanLat.Text);
+            double spanish_c = Convert.ToDouble(txtbSpanWhi.Text);
+            double cold_c = Convert.ToDouble(txtbCold.Text);
+            double pepper_c = Convert.ToDouble(txtbPepper.Text);
+            double flat_c = Convert.ToDouble(txtbFlat.Text);
+            double mocha_c = Convert.ToDouble(txtbMocha.Text);
+
+            cros = 75.00; banana = 85.00; scone = 70.00; loaf = 100.00; chip = 70.00;
+            double cros_P = Convert.ToDouble(txtbCro.Text);
+            double banana_P = Convert.ToDouble(txtbBana.Text);
+            double scone_P = Convert.ToDouble(txtbScone.Text);
+            double loaf_P = Convert.ToDouble(txtbLemon.Text);
+            double chip_P = Convert.ToDouble(txtbChip.Text);
+
+
+            Cafe eat_in_cafe = new Cafe(americano_c, cappucino_c, carlat_c, carmac_c, vanilla_c, spanish_c, cold_c, pepper_c, flat_c, mocha_c, cros_P, banana_P, scone_P, loaf_P, chip_P);
+
+            double caf1 = americano_c * americano; double caf6 = spanish_c * spanish;
+            double caf2 = cappucino_c * cappucino; double caf7 = cold_c * cold;
+            double caf3 = carlat_c * carlat; double caf8 = pepper_c * pepper;
+            double caf4 = carmac_c * carmac; double caf9 = flat_c * flat; ;
+            double caf5 = vanilla_c * vanilla; double caf10 = mocha_c * caffe;
+
+            double cost_of_coff = caf1 + caf2 + caf3 + caf4 + caf5 + caf6 + caf7 + caf8 + caf9 + caf10;
+            lblIced.Text = Convert.ToString(cost_of_coff);
+
+            double pas1 = (cros_P * cros);
+            double pas2 = (banana_P * banana);
+            double pas3 = (scone_P * scone);
+            double pas4 = (loaf_P * loaf);
+            double pas5 = (chip_P * chip);
+
+            double cost_of_pastry = pas1 + pas2 + pas3 + pas4 + pas5;
+
+            lblPastry.Text = Convert.ToString(cost_of_pastry);
+
+            lblSub.Text = Convert.ToString(cost_of_coff + cost_of_pastry);
+            double tax = ((cost_of_coff + cost_of_pastry) * 0.12);
+            double roun = Math.Round(tax);
+            lblTax.Text = Convert.ToString(roun);
+            double itax = Convert.ToDouble(lblTax.Text);
+            double Total = (cost_of_pastry + cost_of_coff + itax);
+            lblTotal.Text = Convert.ToString(Total);
+            lblChange.Text = Convert.ToString(change_c-Total);
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            txtbAme.Text = "0"; txtbSpanWhi.Text = "0";
+            txtbCappu.Text = "0"; txtbCold.Text = "0";
+            txtbCarLat.Text = "0"; txtbFlat.Text = "0";
+            txtbChocLat.Text = "0"; txtbPepper.Text = "0";
+            txtbVanLat.Text = "0"; txtbMocha.Text = "0";
+
+            txtbCro.Text = "0"; txtbBana.Text = "0";
+            txtbScone.Text = "0"; txtbLemon.Text = "0"; txtbChip.Text = "0";
+            lblSub.Text = "0"; lblIced.Text = "0"; lblPastry.Text = "0"; lblTax.Text = "0"; lblTotal.Text = "0";
+            txtbCash.Text = "0"; lblChange.Text = "0";
+
+            txtbAme.Enabled = false; txtbCappu.Enabled = false;
+            txtbCarLat.Enabled = false; txtbChocLat.Enabled = false;
+            txtbVanLat.Enabled = false; txtbSpanWhi.Enabled = false;
+            txtbCold.Enabled = false; txtbFlat.Enabled = false;
+            txtbPepper.Enabled = false; txtbMocha.Enabled = false;
+
+            txtbCro.Enabled = false; txtbBana.Enabled = false;
+            txtbScone.Enabled = false; txtbLemon.Enabled = false;
+            txtbChip.Enabled = false;
+
+
+            ckbAme.Checked = false;   ckbChocLat.Checked= false;
+            ckbCappu.Checked = false;   ckbFlat.Checked = false;
+            checkBox1.Checked = false;  ckbMocha.Checked = false;
+            ckbVanLat.Checked = false;  checkBox2.Checked = false;
+            ckbCold.Checked = false;
+            ckbPepper.Checked = false;
+
+
+            ckbCro.Checked = false; ckbBana.Checked = false; 
+            ckbScone.Checked = false; ckbLemon.Checked = false;
+            ckbChip.Checked = false;
+
+            pictureBox1.Image = Properties.Resources.bgg;
+            rtbReceipt.Clear();
+            pictureBox1.BringToFront();
+        }
+    }
+}
