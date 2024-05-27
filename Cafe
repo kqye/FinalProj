@@ -1,0 +1,146 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ils_2023
+{
+    class Cafe
+    {
+        //DEfault constructor
+
+        public Cafe()
+        {
+            newamericano_c=0.0;
+            newcappucino_c = 0.0;
+            newcarlat_c=0.0;
+            newcarmac_c=0.0;
+            newvanilla_c=0.0;
+            newspanish_c=0.0;
+            newcold_c=0.0;
+            newpepper_c=0.0;
+            newflat_c=0.0;
+            newmocha_c=0.0;
+
+            newcros_P = 0.0;
+            newbanana_P = 0.0;
+            newscone_P= 0.0;
+            newloaf_P=0.0;
+            newchip_P=0.0;
+
+            
+        }
+        //overload
+
+        public Cafe(double americano_c,double cappucino_c, double carlat_c,double carmac_c,
+            double vanilla_c,double spanish_c,double cold_c, double pepper_c, double flat_c,
+            double mocha_c,double cros_P, double banana_P,double scone_P,double loaf_P,double chip_P)
+        {
+            newamericano_c = americano_c;
+            newcappucino_c=cappucino_c;
+            newcarlat_c=carlat_c;
+            newcarmac_c=carmac_c;
+            newvanilla_c=vanilla_c;
+            newspanish_c=spanish_c;
+            newcold_c=cold_c;
+            newpepper_c=pepper_c;
+            newflat_c=flat_c;
+            newmocha_c=mocha_c;
+
+            newcros_P=cros_P;
+            newbanana_P=banana_P;
+            newscone_P = scone_P;
+            newloaf_P=loaf_P;
+            newchip_P=chip_P;
+
+
+        }
+
+       
+
+        //Accesor
+
+        public double getamericano_c()
+        {
+            return newamericano_c;
+        }
+            public double getcappucino_c()
+        {
+            return newcappucino_c;
+        }
+            public double getcarlat_c()
+        {
+            return newcarlat_c;
+        }
+            public double getcarmac_c()
+        {
+            return newcarmac_c;
+        }
+            public double getvanilla_c()
+        {
+            return newvanilla_c;
+        }
+            public double getspanish_c()
+        {
+            return newspanish_c;
+        }
+            public double getcold_c()
+        {
+            return newcold_c;
+        }
+            public double getpepper_c()
+        {
+            return newpepper_c;
+        }
+            public double getnewflat_c()
+        {
+            return newflat_c;
+        }
+            public double getnewmocha()
+        {
+            return newmocha_c;
+        }
+
+            public double getcros_P()
+        {
+            return newcros_P;
+        }
+            public double getbanana_P()
+        {
+            return newbanana_P;
+        }
+            public double getscone_P()
+        {
+            return newscone_P;
+        }
+            public double getloaf_P()
+        {
+            return newloaf_P;
+        }
+            public double getchip_P()
+        {
+            return newchip_P;
+        }
+
+         
+        private double newamericano_c;
+        private double newcappucino_c;
+        private double newcarlat_c;
+        private double newcarmac_c;
+        private double newvanilla_c;
+        private double newspanish_c;
+        private double newcold_c;
+        private double newpepper_c;
+        private double newflat_c;
+        private double newmocha_c;
+
+        private double newcros_P;
+        private double newbanana_P;
+        private double newscone_P;
+        private double newloaf_P;
+        private double newchip_P;
+
+       
+    }
+}
