@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FinalProj
+{
+    class chnges
+    {
+        public chnges()
+        {
+            newchange_c = 0.0;
+        }
+        public chnges(double change_c)
+        {
+            newchange_c = change_c;
+        }
+
+        public double getchange_c()
+        {
+            return newchange_c;
+        }
+
+        private double newchange_c;
+            
+    }
+}
