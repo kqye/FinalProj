@@ -606,6 +606,7 @@ namespace FinalProj
 
         private void btnTotal_Click(object sender, EventArgs e)
         {
+            //define the fixed prices of drinks and pastries
             double americano, cappucino, carlat, carmac, vanilla, spanish, cold, pepper, flat, caffe;
             double cros, banana, scone, loaf, chip;
 
@@ -615,7 +616,7 @@ namespace FinalProj
             carmac = 75.00;    flat = 75.00;
             vanilla = 70.00;   caffe = 75.00;
 
-            
+            // get quantities from user input
             double americano_c= Convert.ToDouble(txtbAme.Text);
             double cappucino_c= Convert.ToDouble(txtbCappu.Text);
             double carlat_c = Convert.ToDouble(txtbCarLat.Text);
