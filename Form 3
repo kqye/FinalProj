@@ -635,7 +635,7 @@ namespace FinalProj
             double loaf_P = Convert.ToDouble(txtbLemon.Text);
             double chip_P= Convert.ToDouble(txtbChip.Text);
 
-            
+            // create cafe object
             Cafe eat_in_cafe = new Cafe(americano_c, cappucino_c, carlat_c, carmac_c, vanilla_c, spanish_c, cold_c, pepper_c, flat_c, mocha_c, cros_P, banana_P, scone_P, loaf_P, chip_P);
             
             double caf1 = americano_c * americano; double caf6 = spanish_c * spanish;
